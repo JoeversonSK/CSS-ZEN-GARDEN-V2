@@ -140,7 +140,7 @@ body{
     
 }
 .gallery__item:nth-of-type(1) .btn-more {
-    cursor: url(/img/Cursor\ serpente.png), auto;
+    cursor: url(/img/CursorSerpente.png), auto;
     color: white;
     background-color:#1A4017;
     padding: 10px;
@@ -151,6 +151,7 @@ body{
     font-size: 1.1rem;
 }
 .gallery__item:nth-of-type(2) .btn-more {
+    cursor: url(/img/CursorLeão.png), auto;
     color: white;
     background-color:#570B0D;
     padding: 10px;
@@ -161,6 +162,7 @@ body{
     font-size: 1.1rem;
 }
 .gallery__item:nth-of-type(3) .btn-more {
+    cursor: url(/img/CursorGaviao.png), auto;
     color: white;
     background-color:#1D4C60;
     padding: 10px;
@@ -171,6 +173,7 @@ body{
     font-size: 1.1rem;
 }
 .gallery__item:nth-of-type(4) .btn-more {
+    cursor: url(/img/CursorLuffy.png), auto;
     color: white;
     background-color:#926E20;
     padding: 10px;
@@ -187,18 +190,33 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    height: 30vh;
-    padding: 100px;
+    padding: 10px;
 }
-.service__title{
-    text-decoration: solid;
-    width: 90px;
-}
+
 .service__item{
     display: flex;
-    gap: 30px;
+    gap: 202px;
     padding: 14px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section--news{
     padding-top: 200px;
     color: white;
@@ -221,7 +239,7 @@ body{
     flex-direction: column;
     gap: 40px;
 }
-.btn-more{
+.news__item .btn-more{
     width: 200px;
     margin-left: 130px;
     padding: 1.1rem;
